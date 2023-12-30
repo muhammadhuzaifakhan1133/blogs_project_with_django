@@ -9,4 +9,3 @@ class BlogSerializer(serializers.ModelSerializer):
     class Meta:
         model = BlogModel
         fields = ["id", "title", "description", "created_at", "updated_at", "author", "author_id"]
-        depth = 1
